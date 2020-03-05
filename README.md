@@ -1,2 +1,2 @@
 # Java
-Laboratoies from the PAO course Second year
+Laboratories from the PAO course Second year
