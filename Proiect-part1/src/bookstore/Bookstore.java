@@ -42,19 +42,25 @@ public class Bookstore {
         System.out.println("After sorting: " + this.books);
     }
 
-    public boolean searchBook(Book book, Client client){
-        if(this.books.contains(book)){
-            if(this.clients.contains(client))
-                System.out.println("Welcome back " + client.toString());
-            else{
-                this.clients.add(client);
+    public Book searchBook(String book, Client client){
+        System.out.println("Searching for this author: " + book);
+        for(int i = 0; i < this.books.size(); ++i) {
+            System.out.println(this.books.get(i).getAuthor().equals(book));
+            if (this.books.get(i).getAuthor().equals(book)) {
+                if (this.clients.contains(client))
+                    System.out.println("Welcome back " + client.toString());
+                else {
+                    this.clients.add(client);
+                }
+
+                this.books.get(i).viewPurchaseHistory();
+
+                return this.books.get(i);
+            } else {
+                return null;
             }
-            book.viewPurchaseHistory();
-            return true;
         }
-        else{
-            return false;
-        }
+        return null;
     }
 
     public void showInventory(){
@@ -74,7 +80,7 @@ public class Bookstore {
     public void seeClientsInfo(){
         System.out.println("Number of clients: " + this.clients.size());
         for(int i = 0; i < this.clients.size(); ++i){
-            System.out.println("Client nr: " + i + " " + this.clients.get(i).toString() + " with purchase history: " +
+            System.out.println(this.clients.get(i).toString() + " with purchase history: " +
                     this.clients.get(i).purchaseHistory);
         }
     }

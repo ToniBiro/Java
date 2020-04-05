@@ -72,7 +72,13 @@ public abstract class Book implements Comparable<Book>{
     public boolean equals(Object obj) {
         if (obj instanceof Book) {
             Book book = (Book) obj;
-            return this.getTitle().equals(book.getTitle()) && this.getAuthor().equals(book.getAuthor());
+            return this.getAuthor().equals(book.getAuthor());
+        }
+        else{
+            if(obj instanceof String){
+                String str = (String) obj;
+                return this.getAuthor().equals(str);
+            }
         }
         return false;
     }

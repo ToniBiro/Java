@@ -9,20 +9,20 @@ import java.util.List;
 public class Client extends Person{
 
     public List<Book> purchaseHistory;
-    private Book bookInMind;
+    private String authorInMind;
     private float money;
 
     public Client(int id, String name, float money) {
         super(id, name);
         this.money = money;
         this.type = "client";
-        this.bookInMind = null;
+        this.authorInMind = null;
     }
 
-    public Client(int id, String name, float money, Book bookInMind) {
+    public Client(int id, String name, float money, String authorInMind) {
         super(id, name);
         this.money = money;
-        this.bookInMind = bookInMind;
+        this.authorInMind = authorInMind;
     }
 
     @Override
@@ -32,22 +32,27 @@ public class Client extends Person{
 
     public void buyBook(Bookstore bs){
 
-        if(bookInMind != null){
-            if(buyFoundBook(bookInMind, bs)){
-                System.out.println(this.toString() + " found the book that was on his mind: " + bookInMind.toString());
+        if(authorInMind != null){
+            System.out.println("Yes, I have an author in mind!");
+            if(buyFoundBook(authorInMind, bs)){
+                System.out.println(this.toString() + " found the author that was on his mind: " + authorInMind.toString());
             }
         }
         else{
-            buyFoundBook(this.findBook(bs), bs);
+            buyFoundBook(this.findBook(bs).author, bs);
         }
     }
 
-    public boolean buyFoundBook(Book book, Bookstore bs){
-        if(bs.searchBook(book, this)){
-            bs.money += bookInMind.price;
-            this.money -= bookInMind.price;
+    public boolean buyFoundBook(String book, Bookstore bs){
+        Book foundBook = bs.searchBook(book, this);
+        if(foundBook != null){
+            System.out.println("ce am gasit: " + foundBook);
+            System.out.println("Found the book in my mind!");
+            bs.money += foundBook.price;
+            this.money -= foundBook.price;
+            this.purchaseHistory.add(foundBook);
 
-            book.purchaseHistory.add(this);
+            foundBook.purchaseHistory.add(this);
             return true;
         }
         return false;
@@ -55,6 +60,7 @@ public class Client extends Person{
 
     public Book findBook(Bookstore bs){
         Random random = new Random();
-        return bs.books.get(random.nextInt(bs.books.size()));
+        System.out.println("Choose random book.");
+        return bs.books.get(random.nextInt(bs.books.size()-1));
     }
 }

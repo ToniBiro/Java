@@ -17,6 +17,14 @@ public class BookstoreTest {
 
         addBooks(carturesti);
 
+        Client client1 = new Client(2, "Gigel", 1000);
+        // client that buys a random generate book
+        client1.buyBook(carturesti);
+
+        Client client2 = new Client(3, "Anca", 200, "Eminescu");
+        // client that buys a book he/she was looking for
+        client2.buyBook(carturesti);
+
         // add employees
 
         //show bookstore's inventory
@@ -33,8 +41,11 @@ public class BookstoreTest {
         List<Client> newClients =  new ArrayList<Client>();
         Employee[] newEmployees = new Employee[10];
         Manager newManager = new Manager(1, "Valentin");
+        Bookstore bs = new Bookstore(newBooks, newClients, 10, newEmployees, newManager, 1000);
 
-        return new Bookstore(newBooks, newClients, 10, newEmployees, newManager, 1000);
+        newManager.bs = bs;
+
+        return bs;
     }
 
     public static void addBooks(Bookstore bs){
