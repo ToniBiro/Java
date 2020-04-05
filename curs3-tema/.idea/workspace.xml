@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4d821f1-ff05-46a1-bf9a-9d9b67b0ac0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CandyBag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CandyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/candyBox/CandyBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/candyBox/Heidi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/candyBox/Lindt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/candyBox/Milka.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../polimorfism/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../polimorfism/src/zoo/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../polimorfism/src/zoo/Zoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../polimorfism/src/zoo/ZooTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../polimorfism/src/zoo/carnivor/Carnior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../polimorfism/src/zoo/carnivor/Leu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../polimorfism/src/zoo/carnivor/Pisica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../polimorfism/src/zoo/ierbivor/Cal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../polimorfism/src/zoo/ierbivor/Elefant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../polimorfism/src/zoo/ierbivor/Ierbivor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../polimorfism/src/zoo/omnivor/Caine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../polimorfism/src/zoo/omnivor/Omnivor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../polimorfism/src/zoo/omnivor/Urs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../curs2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../curs2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CandyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CandyTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CandyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="220">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/CandyBag.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -57,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/src/candyBox/CandyBox.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="484">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#298#299#0" expanded="true" />
                 <element signature="e#322#323#0" expanded="true" />
@@ -70,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/candyBox/Milka.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding>
                 <element signature="e#269#270#0" expanded="true" />
                 <element signature="e#316#317#0" expanded="true" />
@@ -87,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/src/candyBox/Heidi.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding>
                 <element signature="e#269#270#0" expanded="true" />
                 <element signature="e#315#316#0" expanded="true" />
@@ -104,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/src/candyBox/Lindt.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding>
                 <element signature="e#333#334#0" expanded="true" />
                 <element signature="e#377#378#0" expanded="true" />
@@ -159,17 +141,6 @@
               <item name="curs3-tema" type="b2602c69:ProjectViewProjectNode" />
               <item name="curs3-tema" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="curs3-tema" type="b2602c69:ProjectViewProjectNode" />
-              <item name="curs3-tema" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="curs3-tema" type="b2602c69:ProjectViewProjectNode" />
-              <item name="curs3-tema" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="candyBox" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -178,7 +149,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586027750488" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586027927086" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunDashboard">
@@ -221,12 +192,13 @@
       <window_info id="Image Layers" order="3" />
       <window_info content_ui="combo" id="Project" order="4" visible="true" weight="0.2118019" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -243,7 +215,7 @@
     <entry file="file://$PROJECT_DIR$/src/candyBox/Lindt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding>
             <element signature="e#333#334#0" expanded="true" />
             <element signature="e#377#378#0" expanded="true" />
@@ -256,7 +228,7 @@
     <entry file="file://$PROJECT_DIR$/src/candyBox/CandyBox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#298#299#0" expanded="true" />
             <element signature="e#322#323#0" expanded="true" />
@@ -267,7 +239,7 @@
     <entry file="file://$PROJECT_DIR$/src/candyBox/Heidi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
             <element signature="e#269#270#0" expanded="true" />
             <element signature="e#315#316#0" expanded="true" />
@@ -282,14 +254,14 @@
     <entry file="file://$PROJECT_DIR$/src/CandyBag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/candyBox/Milka.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
             <element signature="e#269#270#0" expanded="true" />
             <element signature="e#316#317#0" expanded="true" />
@@ -303,8 +275,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CandyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="220">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
