@@ -14,13 +14,19 @@ public abstract class Book implements Comparable<Book>{
     public List<Client> purchaseHistory;
     protected String category;
 
-    public Book(String title, String author, String publisher, int year, List<Client> purchaseHistory) {
+    public float price;
+
+    public Book(String title, String author, String publisher, int year, List<Client> purchaseHistory, float price) {
         this.title = title;
         this.author = author;
         this.publisher = publisher;
         this.year = year;
         this.id = hashCode();
         this.purchaseHistory = purchaseHistory;
+        this.price = price;
+    }
+
+    public Book(String title, String author, String publisher, int year, List<Client> purchaseHistory) {
     }
 
     public String getTitle() {
@@ -44,16 +50,16 @@ public abstract class Book implements Comparable<Book>{
     }
 
     public void viewPurchaseHistory(){
-        System.out.println("Clients: " + this.purchaseHistory);
+        System.out.println("Purchase History Clients: " + this.purchaseHistory);
     }
 
     @Override
     public String toString() {
         return "Book {" +
-                "title:'" + this.title + '\'' +
-                ", author:" + this.author +
-                ", publisher:" + this.publisher +
-                ", year:" + this.year +
+                "title: " + this.title +
+                ", author: " + this.author +
+                ", publisher: " + this.publisher +
+                ", year: " + this.year +
                 '}';
     }
 
@@ -70,6 +76,5 @@ public abstract class Book implements Comparable<Book>{
         }
         return false;
     }
-
 
 }

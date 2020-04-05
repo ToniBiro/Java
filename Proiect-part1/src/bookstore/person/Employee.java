@@ -14,4 +14,5 @@ public abstract class Employee extends Person{
         return super.toString() + " type: " + this.type;
     }
 
+
 }

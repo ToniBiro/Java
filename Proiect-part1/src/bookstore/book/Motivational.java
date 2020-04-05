@@ -6,8 +6,8 @@ import java.util.List;
 
 public class Motivational extends Book{
 
-    public Motivational(String title, String author, String publisher, int year, List<Client> purchaseHistory) {
-        super(title, author, publisher, year, purchaseHistory);
+    public Motivational(String title, String author, String publisher, int year, List<Client> purchaseHistory, float price) {
+        super(title, author, publisher, year, purchaseHistory, price);
         this.category = "motivational";
     }
 
