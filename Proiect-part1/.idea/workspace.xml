@@ -4,10 +4,8 @@
     <list default="true" id="af9df2a1-29c9-44f8-a54b-c933adc4d48f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/bookstore/Bookstore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/Bookstore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bookstore/BookstoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/BookstoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bookstore/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bookstore/book/Mistery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/book/Mistery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bookstore/person/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/person/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bookstore/person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/person/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookstore/person/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/person/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookstore/person/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/person/Manager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bookstore/book/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="154">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#664#665#0" expanded="true" />
@@ -44,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bookstore/BookstoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+            <state relative-caret-position="178">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#508#514#0" expanded="true" />
@@ -57,34 +55,6 @@
                 <element signature="e#623#631#0" expanded="true" />
                 <element signature="e#794#802#0" expanded="true" />
                 <element signature="e#985#993#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bookstore/Bookstore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1795#1796#0" expanded="true" />
-                <element signature="e#1857#1858#0" expanded="true" />
-                <element signature="e#1890#1891#0" expanded="true" />
-                <element signature="e#1947#1948#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bookstore/book/Hobby.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bookstore/person/Manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="200">
+              <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#245#246#0" expanded="true" />
@@ -133,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bookstore/person/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="242">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="e#248#249#0" expanded="true" />
                 <element signature="e#290#291#0" expanded="true" />
@@ -146,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bookstore/person/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
+            <state relative-caret-position="256">
               <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -163,6 +133,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
               <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bookstore/Bookstore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-880">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -184,21 +166,21 @@
       <list>
         <option value="$PROJECT_DIR$/src/bookstore/person/Salesman.java" />
         <option value="$PROJECT_DIR$/src/bookstore/Test.java" />
-        <option value="$PROJECT_DIR$/src/bookstore/person/Employee.java" />
         <option value="$PROJECT_DIR$/src/bookstore/book/Motivational.java" />
         <option value="$PROJECT_DIR$/src/bookstore/book/Hobby.java" />
         <option value="$PROJECT_DIR$/src/bookstore/book/Horror.java" />
-        <option value="$PROJECT_DIR$/src/bookstore/person/Manager.java" />
         <option value="$PROJECT_DIR$/src/bookstore/book/Mistery.java" />
         <option value="$PROJECT_DIR$/src/bookstore/book/Book.java" />
         <option value="$PROJECT_DIR$/src/bookstore/person/Person.java" />
         <option value="$PROJECT_DIR$/src/bookstore/person/Client.java" />
-        <option value="$PROJECT_DIR$/src/bookstore/Bookstore.java" />
+        <option value="$PROJECT_DIR$/src/bookstore/person/Employee.java" />
         <option value="$PROJECT_DIR$/src/bookstore/BookstoreTest.java" />
+        <option value="$PROJECT_DIR$/src/bookstore/person/Manager.java" />
+        <option value="$PROJECT_DIR$/src/bookstore/Bookstore.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="921" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -251,7 +233,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586106941255" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586109741123" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunDashboard">
@@ -370,29 +352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bookstore/person/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bookstore/person/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bookstore/book/Mistery.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -407,8 +366,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bookstore/book/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="154">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#664#665#0" expanded="true" />
@@ -438,7 +397,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bookstore/person/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
+        <state relative-caret-position="256">
           <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -449,24 +408,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bookstore/Bookstore.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="70" column="9" lean-forward="true" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+        <state relative-caret-position="266">
+          <caret line="865" lean-forward="true" selection-start-line="865" selection-end-line="865" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookstore/person/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1795#1796#0" expanded="true" />
-            <element signature="e#1857#1858#0" expanded="true" />
-            <element signature="e#1890#1891#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookstore/person/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bookstore/BookstoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        <state relative-caret-position="178">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#508#514#0" expanded="true" />
@@ -475,6 +450,16 @@
             <element signature="e#623#631#0" expanded="true" />
             <element signature="e#794#802#0" expanded="true" />
             <element signature="e#985#993#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookstore/Bookstore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-880">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

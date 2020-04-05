@@ -13,6 +13,4 @@ public abstract class Employee extends Person{
     public String toString(){
         return super.toString() + " type: " + this.type;
     }
-
-
 }

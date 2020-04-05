@@ -4,10 +4,12 @@ import bookstore.book.*;
 import bookstore.person.Client;
 import bookstore.person.Employee;
 import bookstore.person.Manager;
+import bookstore.person.Salesman;
 
 import java.util.ArrayList;
 import java.util.EnumMap;
 import java.util.List;
+import java.util.Scanner;
 
 public class BookstoreTest {
 
@@ -27,16 +29,29 @@ public class BookstoreTest {
         // client that buys a book he/she was looking for
         client2.buyBook(carturesti);
 
+        Employee emplyee1 = new Salesman(4, "Maria");
         // add employees
+        carturesti.manager.addEmployee(emplyee1);
+        System.out.println("Added new employee: " + emplyee1.toString());
+        System.out.println("Employee list: ");
+        for(int i = 0; i < carturesti.index; ++i)
+            System.out.println(carturesti.employees[i].toString());
+
+        //remove employees
+        carturesti.manager.removeEmployee(emplyee1);
+        System.out.println("Removed employee: " + emplyee1.toString());
+        System.out.println("Employee list: ");
+        for(int i = 0; i < carturesti.index; ++i)
+            System.out.println(carturesti.employees[i].toString());
 
 
         //show bookstore's inventory
         carturesti.showInventory();
 
-        // shiw purchase history of all books in inventory
+        // show purchase history of all books in inventory
         carturesti.seePurchaseHistory();
 
-        // view purchase history of all books in inventory
+        // view clients info of all the clients
         carturesti.seeClientsInfo();
 
         // change status as manager
@@ -50,10 +65,8 @@ public class BookstoreTest {
 
         List<Book> newBooks = new ArrayList<Book>();
         List<Client> newClients =  new ArrayList<Client>();
-        Employee[] newEmployees = new Employee[10];
         Manager newManager = new Manager(1, "Valentin");
-        Bookstore bs = new Bookstore(newBooks, newClients, 10, newEmployees, newManager, 1000);
-
+        Bookstore bs = new Bookstore(newBooks, newClients, 10, newManager, 1000);
         newManager.bs = bs;
 
         return bs;

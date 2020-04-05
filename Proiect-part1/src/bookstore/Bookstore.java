@@ -18,19 +18,21 @@ public class Bookstore {
 
     private String status;
     private int maxNumberEmployees;
-    Employee[] employees;
+    public Employee[] employees;
+    public int index;
 
     public float money;
 
 
-    public Bookstore(List<Book> books, List<Client> clients, int maxNumberEmployees, Employee[] employees, Manager manager, float money){
+    public Bookstore(List<Book> books, List<Client> clients, int maxNumberEmployees, Manager manager, float money) {
         this.books = books;
         this.clients = clients;
         this.maxNumberEmployees = maxNumberEmployees;
-        this.employees = employees;
+        this.employees = new Employee[maxNumberEmployees];
         this.manager = manager;
         this.status = "quarantine";
         this.money = money;
+        this.index = 0;
     }
 
     public void addBook(Book book){
