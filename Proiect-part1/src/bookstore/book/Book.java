@@ -43,6 +43,10 @@ public abstract class Book implements Comparable<Book>{
         return year;
     }
 
+    public void viewPurchaseHistory(){
+        System.out.println("Clients: " + this.purchaseHistory);
+    }
+
     @Override
     public String toString() {
         return "Book {" +
@@ -66,4 +70,6 @@ public abstract class Book implements Comparable<Book>{
         }
         return false;
     }
+
+
 }

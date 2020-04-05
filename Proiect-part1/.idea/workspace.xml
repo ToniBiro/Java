@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af9df2a1-29c9-44f8-a54b-c933adc4d48f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookstore/Bookstore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookstore/BookstoreTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookstore/book/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookstore/book/Hobby.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookstore/book/Horror.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookstore/book/Mistery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookstore/book/Motivational.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookstore/person/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookstore/person/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookstore/person/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookstore/person/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bookstore/person/Salesman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../curs4-tema/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../curs4-tema/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bookstore/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookstore/Bookstore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/Bookstore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookstore/BookstoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/BookstoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookstore/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookstore/book/Hobby.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/book/Hobby.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookstore/book/Horror.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/book/Horror.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookstore/book/Mistery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/book/Mistery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookstore/book/Motivational.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/book/Motivational.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookstore/person/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/person/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookstore/person/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/person/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookstore/person/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/person/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookstore/person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/person/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookstore/person/Salesman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/person/Salesman.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bookstore/book/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="674">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#664#665#0" expanded="true" />
@@ -43,6 +43,8 @@
                 <element signature="e#873#874#0" expanded="true" />
                 <element signature="e#901#902#0" expanded="true" />
                 <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1015#1016#0" expanded="true" />
                 <element signature="e#973#974#0" expanded="true" />
                 <element signature="e#1034#1035#0" expanded="true" />
               </folding>
@@ -51,28 +53,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bookstore/person/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/bookstore/BookstoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="110">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bookstore/book/Horror.java">
+        <entry file="file://$PROJECT_DIR$/src/bookstore/Bookstore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="564">
+              <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#757#758#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#839#840#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bookstore/book/Mistery.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bookstore/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="502">
+              <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,35 +94,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bookstore/book/Motivational.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bookstore/book/Hobby.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bookstore/person/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bookstore/person/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="176">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,8 +108,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bookstore/person/Manager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="418">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <folding>
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,8 +121,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bookstore/person/Salesman.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bookstore/person/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+              <folding>
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bookstore/person/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bookstore/person/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,7 +186,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/bookstore/book/Hobby.java" />
+        <option value="$PROJECT_DIR$/src/bookstore/book/Horror.java" />
+        <option value="$PROJECT_DIR$/src/bookstore/book/Mistery.java" />
+        <option value="$PROJECT_DIR$/src/bookstore/book/Motivational.java" />
+        <option value="$PROJECT_DIR$/src/bookstore/BookstoreTest.java" />
+        <option value="$PROJECT_DIR$/src/bookstore/person/Person.java" />
+        <option value="$PROJECT_DIR$/src/bookstore/person/Manager.java" />
+        <option value="$PROJECT_DIR$/src/bookstore/person/Salesman.java" />
+        <option value="$PROJECT_DIR$/src/bookstore/person/Employee.java" />
+        <option value="$PROJECT_DIR$/src/bookstore/person/Client.java" />
         <option value="$PROJECT_DIR$/src/bookstore/book/Book.java" />
+        <option value="$PROJECT_DIR$/src/bookstore/Bookstore.java" />
+        <option value="$PROJECT_DIR$/src/bookstore/Test.java" />
       </list>
     </option>
   </component>
@@ -203,7 +255,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586092137435" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586095219674" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunDashboard">
@@ -218,6 +270,15 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="BookstoreTest" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="bookstore.BookstoreTest" />
+      <module name="Proiect-part1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="af9df2a1-29c9-44f8-a54b-c933adc4d48f" name="Default Changelist" comment="" />
@@ -230,19 +291,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16280295" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16280295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -256,87 +319,121 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bookstore/Bookstore.java">
+    <entry file="file://$PROJECT_DIR$/src/bookstore/book/Hobby.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bookstore/BookstoreTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bookstore/book/Horror.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="176">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bookstore/book/Mistery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="330">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bookstore/book/Motivational.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="176">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bookstore/book/Hobby.java">
+    <entry file="file://$PROJECT_DIR$/src/bookstore/BookstoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bookstore/person/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bookstore/person/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bookstore/person/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bookstore/person/Salesman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookstore/person/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookstore/person/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bookstore/person/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="88">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookstore/person/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bookstore/book/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="674">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#664#665#0" expanded="true" />
@@ -349,8 +446,36 @@
             <element signature="e#873#874#0" expanded="true" />
             <element signature="e#901#902#0" expanded="true" />
             <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
             <element signature="e#973#974#0" expanded="true" />
             <element signature="e#1034#1035#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookstore/Bookstore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bookstore/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
