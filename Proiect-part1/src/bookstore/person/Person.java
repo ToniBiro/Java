@@ -13,8 +13,8 @@ public abstract class Person{
 
     @Override
     public String toString(){
-        return "Person with name:" + this.name +
-                "id: " + this.id;
+        return " Person with name:" + this.name +
+                " id: " + this.id;
     }
 
     public int getId() {

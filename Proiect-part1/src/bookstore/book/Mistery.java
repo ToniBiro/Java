@@ -12,6 +12,9 @@ public class Mistery extends Book{
         this.category = "mistery";
     }
 
+    public Mistery(String title, String author) {
+        super(title, author);
+    }
 
     @Override
     public String toString(){

@@ -42,25 +42,19 @@ public class Bookstore {
         System.out.println("After sorting: " + this.books);
     }
 
-    public Book searchBook(String book, Client client){
+    public boolean searchBook(Book book, Client client){
         System.out.println("Searching for this author: " + book);
-        for(int i = 0; i < this.books.size(); ++i) {
-            System.out.println(this.books.get(i).getAuthor().equals(book));
-            if (this.books.get(i).getAuthor().equals(book)) {
-                if (this.clients.contains(client))
-                    System.out.println("Welcome back " + client.toString());
-                else {
-                    this.clients.add(client);
-                }
-
-                this.books.get(i).viewPurchaseHistory();
-
-                return this.books.get(i);
-            } else {
-                return null;
+        if (this.books.contains(book)) {
+            if (this.clients.contains(client))
+                System.out.println("Welcome back " + client.toString());
+            else {
+                this.clients.add(client);
             }
+            int idx = this.books.indexOf(book);
+            this.books.get(idx).purchaseHistory.add(client);
+            return true;
         }
-        return null;
+        return false;
     }
 
     public void showInventory(){
@@ -68,10 +62,12 @@ public class Bookstore {
     }
 
     public void changeStatus(){
+        System.out.println("Current status: " + this.status);
         this.status = this.manager.changeStatus();
+        System.out.println("New status: " + this.status);
     }
 
-    private void seePurchaseHistory(){
+    public void seePurchaseHistory(){
         for(int i = 0; i < this.books.size(); ++i){
             this.books.get(i).viewPurchaseHistory();
         }

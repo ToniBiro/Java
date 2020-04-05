@@ -26,6 +26,11 @@ public abstract class Book implements Comparable<Book>{
         this.price = price;
     }
 
+    public Book(String title, String author) {
+        this.title = title;
+        this.author = author;
+    }
+
     public Book(String title, String author, String publisher, int year, List<Client> purchaseHistory) {
     }
 
@@ -72,13 +77,7 @@ public abstract class Book implements Comparable<Book>{
     public boolean equals(Object obj) {
         if (obj instanceof Book) {
             Book book = (Book) obj;
-            return this.getAuthor().equals(book.getAuthor());
-        }
-        else{
-            if(obj instanceof String){
-                String str = (String) obj;
-                return this.getAuthor().equals(str);
-            }
+            return this.getAuthor().equals(book.getAuthor()) && this.getTitle().equals(book.getTitle());
         }
         return false;
     }

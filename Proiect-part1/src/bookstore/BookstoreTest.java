@@ -15,23 +15,34 @@ public class BookstoreTest {
 
         Bookstore carturesti = createNewBookstore();
 
+        // add books in the Bookstore
         addBooks(carturesti);
 
         Client client1 = new Client(2, "Gigel", 1000);
-        // client that buys a random generate book
+        // client that buys a randomly generated book
         client1.buyBook(carturesti);
 
-        Client client2 = new Client(3, "Anca", 200, "Eminescu");
+        Mistery searchThis = new Mistery("Poezii", "Eminescu");
+        Client client2 = new Client(3, "Anca", 200, searchThis);
         // client that buys a book he/she was looking for
         client2.buyBook(carturesti);
 
         // add employees
 
+
         //show bookstore's inventory
         carturesti.showInventory();
 
+        // shiw purchase history of all books in inventory
+        carturesti.seePurchaseHistory();
+
         // view purchase history of all books in inventory
         carturesti.seeClientsInfo();
+
+        // change status as manager
+        System.out.println("Enter new status: ");
+        carturesti.changeStatus();
+        System.out.println("The manager changed the status");
 
     }
 
