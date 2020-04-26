@@ -30,10 +30,12 @@ public class BookstoreTest {
 
         // definire un input stream si output stream pentru citire a datelor din csv
         Input input = Input.getInstance();
+        Output output = Output.getInstance();
 
         AllServices allServices = new AllServices();
 
         Bookstore carturesti = allServices.createNewBookstore(input);
+        output.write("C:\\Users\\toni\\Documents\\GitHub\\Java\\Proiect-part2\\test1.txt", "creare_bookstore");
 
         BookService bookService = new BookService();
 
@@ -41,7 +43,7 @@ public class BookstoreTest {
 
         // add books in the Bookstore
         allServices.addBooks(carturesti, input);
-
+        output.write("C:\\Users\\toni\\Documents\\GitHub\\Java\\Proiect-part2\\test1.txt", "adaugare_carti");
 
 
 //        Client client1 = new Client(2, "Gigel", 1000);
@@ -54,6 +56,7 @@ public class BookstoreTest {
 //        Client client2 = new Client(3, "Anca", 200, searchThis);
 //        client2.buyBook(carturesti);
         allServices.addClients(carturesti, input);
+        output.write("C:\\Users\\toni\\Documents\\GitHub\\Java\\Proiect-part2\\test1.txt", "adaugare_clienti");
 
 
         // add employees
@@ -61,12 +64,14 @@ public class BookstoreTest {
 //        carturesti.manager.addEmployee(emplyee1);
 //        System.out.println("Added new employee: " + emplyee1.toString());
         allServices.addEmployees(carturesti, input);
+        output.write("C:\\Users\\toni\\Documents\\GitHub\\Java\\Proiect-part2\\test1.txt", "adaugare_angajati");
 
 //        System.out.println("Employee list: ");
 //        for(int i = 0; i < carturesti.index; ++i)
 //            System.out.println(carturesti.employees[i].toString());
 
         employeeService.showEmployees(carturesti);
+        output.write("C:\\Users\\toni\\Documents\\GitHub\\Java\\Proiect-part2\\test1.txt", "afisare_angajati");
 
 
         //remove employees
@@ -76,19 +81,24 @@ public class BookstoreTest {
 //        for(int i = 0; i < carturesti.index; ++i)
 //            System.out.println(carturesti.employees[i].toString());
         employeeService.removeEmployee(carturesti, carturesti.employees[0]);
+        output.write("C:\\Users\\toni\\Documents\\GitHub\\Java\\Proiect-part2\\test1.txt", "inlaturare_angajati");
 
 
         //show bookstore's inventory
         carturesti.showInventory();
+        output.write("C:\\Users\\toni\\Documents\\GitHub\\Java\\Proiect-part2\\test1.txt", "afisare_inventar");
 
         // show purchase history of all books in inventory
         carturesti.seePurchaseHistory();
+        output.write("C:\\Users\\toni\\Documents\\GitHub\\Java\\Proiect-part2\\test1.txt", "afisare_istoric_vanzari");
 
         // view clients info of all the clients
         carturesti.seeClientsInfo();
+        output.write("C:\\Users\\toni\\Documents\\GitHub\\Java\\Proiect-part2\\test1.txt", "afisare_info_clienti");
 
         // change status as manager
         allServices.bookstoreChangeStatus(carturesti);
+        output.write("C:\\Users\\toni\\Documents\\GitHub\\Java\\Proiect-part2\\test1.txt", "schimbare_status_firma");
 
     }
 
