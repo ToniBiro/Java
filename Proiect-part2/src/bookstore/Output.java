@@ -28,7 +28,7 @@ public class Output {
 
         try {
             long yourmilliseconds = System.currentTimeMillis();
-            SimpleDateFormat sdf = new SimpleDateFormat("MMM dd,yyyy HH:mm");
+            SimpleDateFormat sdf = new SimpleDateFormat("MMM dd,yyyy HH:mm:ss");
             Date resultdate = new Date(yourmilliseconds);
 
             writer = new BufferedWriter(new FileWriter(csvFile, true));

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af9df2a1-29c9-44f8-a54b-c933adc4d48f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bookstore/Output.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Proiect-part1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proiect-part1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Proiect-part1/out/production/Proiect-part1/bookstore/BookstoreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Proiect-part1/out/production/Proiect-part1/bookstore/BookstoreTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Proiect-part1/out/production/Proiect-part1/bookstore/book/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Proiect-part1/out/production/Proiect-part1/bookstore/book/Book.class" afterDir="false" />
@@ -13,8 +12,8 @@
       <change beforePath="$PROJECT_DIR$/../Proiect-part1/src/bookstore/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proiect-part1/src/bookstore/book/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Proiect-part1/src/bookstore/person/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proiect-part1/src/bookstore/person/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Proiect-part1/src/bookstore/person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proiect-part1/src/bookstore/person/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bookstore/BookstoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/BookstoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bookstore/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/Output.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../curs8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../curs8/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../curs8/src/singleton/ConcurentLazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../curs8/src/singleton/ConcurentLazySingleton.java" afterDir="false" />
     </list>
@@ -27,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bookstore/BookstoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+            <state relative-caret-position="308">
+              <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,11 +41,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bookstore/Output.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+            <state relative-caret-position="214">
+              <caret line="29" column="63" lean-forward="true" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -148,12 +156,12 @@
         <option value="$PROJECT_DIR$/src/bookstore/EmployeeService.java" />
         <option value="$PROJECT_DIR$/src/bookstore/BookService.java" />
         <option value="$PROJECT_DIR$/src/bookstore/AllServices.java" />
-        <option value="$PROJECT_DIR$/src/bookstore/Output.java" />
         <option value="$PROJECT_DIR$/src/bookstore/BookstoreTest.java" />
+        <option value="$PROJECT_DIR$/src/bookstore/Output.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="921" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -206,7 +214,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587913431551" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587913623744" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
@@ -245,6 +253,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -256,9 +265,9 @@
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.283857" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.283857" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -459,26 +468,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bookstore/Output.java">
+    <entry file="file://$PROJECT_DIR$/src/bookstore/BookstoreTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        <state relative-caret-position="308">
+          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bookstore/BookstoreTest.java">
+    <entry file="file://$PROJECT_DIR$/src/bookstore/Output.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+        <state relative-caret-position="214">
+          <caret line="29" column="63" lean-forward="true" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
