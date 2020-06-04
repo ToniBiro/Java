@@ -4,7 +4,7 @@ import bookstore.person.Client;
 
 import java.util.List;
 
-public abstract class Book implements Comparable<Book>{
+public class Book implements Comparable<Book>{
 
     public String title;
     public String author;

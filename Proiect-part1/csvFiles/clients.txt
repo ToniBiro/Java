@@ -1,0 +1,2 @@
+2,Gigel,1000,Poezii,Eminescu
+3,Mara,3060

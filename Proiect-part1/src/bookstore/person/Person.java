@@ -1,6 +1,6 @@
 package bookstore.person;
 
-public abstract class Person{
+public class Person{
 
     private int id;
     public String name;

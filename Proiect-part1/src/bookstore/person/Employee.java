@@ -1,6 +1,6 @@
 package bookstore.person;
 
-public abstract class Employee extends Person{
+public class Employee extends Person{
 
     public String role;
 

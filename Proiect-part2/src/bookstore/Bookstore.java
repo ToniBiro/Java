@@ -59,8 +59,10 @@ public class Bookstore {
         return false;
     }
 
-    public void showInventory(){
+    public void showInventory(Output output){
         System.out.println("Inventory: " + this.books);
+
+        output.write("afisare_inventar");
     }
 
     public void changeStatus(){
@@ -69,17 +71,20 @@ public class Bookstore {
         System.out.println("New status: " + this.status);
     }
 
-    public void seePurchaseHistory(){
+    public void seePurchaseHistory(Output output){
         for(int i = 0; i < this.books.size(); ++i){
             this.books.get(i).viewPurchaseHistory();
         }
+        output.write("afisare_istoric_vanzari");
     }
 
-    public void seeClientsInfo(){
+    public void seeClientsInfo(Output output){
         System.out.println("Number of clients: " + this.clients.size());
         for(int i = 0; i < this.clients.size(); ++i){
             System.out.println(this.clients.get(i).toString() + " with purchase history: " +
                     this.clients.get(i).purchaseHistory);
         }
+
+        output.write("afisare_info_clienti");
     }
 }

@@ -12,7 +12,7 @@ import java.util.List;
 public class AllServices {
 
     // Bookstore Services
-    public static Bookstore createNewBookstore(Input input, Output output){
+    public static Bookstore createNewBookstore(Input input){
 
         List<String[]> bookstores = input.read("C:\\Users\\toni\\Documents\\GitHub\\Java\\Proiect-part1\\csvFiles\\bookstores.txt");
 
@@ -28,12 +28,12 @@ public class AllServices {
                 Integer.parseInt(bookstore_aux[3]));
 
         newManager.bs = bs;
-        output.write("creare_bookstore");
+
         return bs;
 
     }
 
-    public static void addBooks(Bookstore bs, Input input, Output output){
+    public static void addBooks(Bookstore bs, Input input){
 
         List<String[]> books = input.read("C:\\Users\\toni\\Documents\\GitHub\\Java\\Proiect-part1\\csvFiles\\books.txt");
 
@@ -77,18 +77,15 @@ public class AllServices {
                 bs.addBook(book);
             }
         }
-        output.write("adaugare_carti");
     }
 
-    public static void bookstoreChangeStatus(Bookstore bs, Output output){
+    public static void bookstoreChangeStatus(Bookstore bs){
         System.out.println("Enter new status: ");
         bs.changeStatus();
         System.out.println("The manager changed the status");
-
-        output.write("schimbare_status_firma");
     }
 
-    public static void addEmployees(Bookstore bs, Input input, Output output){
+    public static void addEmployees(Bookstore bs, Input input){
         List<String[]> employees = input.read("C:\\Users\\toni\\Documents\\GitHub\\Java\\Proiect-part1\\csvFiles\\employees.txt");
 
         for (int i = 0; i < employees.size(); ++i){
@@ -98,12 +95,10 @@ public class AllServices {
             bs.manager.addEmployee(employee);
             System.out.println("Added new employee: " + employee.toString());
         }
-
-        output.write("adaugare_angajati");
     }
 
 
-    public static void addClients(Bookstore bs, Input input, Output output){
+    public static void addClients(Bookstore bs, Input input){
         // se va da si un input stream pentru citirea clientilor dintr-un csv
         List<String[]> clients = input.read("C:\\Users\\toni\\Documents\\GitHub\\Java\\Proiect-part1\\csvFiles\\clients.txt");
         BookService bookService = new BookService();
@@ -123,7 +118,7 @@ public class AllServices {
                         Integer.parseInt(client_aux[2]));
                 bookService.buyBook(bs, client);
             }
+
         }
-        output.write("adaugare_clienti");
     }
 }

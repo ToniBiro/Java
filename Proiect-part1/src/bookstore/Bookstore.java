@@ -18,7 +18,7 @@ public class Bookstore {
 
     private String status;
     private int maxNumberEmployees;
-    public Employee[] employees;
+    public Employee[] employees; // transform in set()
     public int index;
 
     public float money;
