@@ -53,7 +53,7 @@ public class Bookstore {
                 this.clients.add(client);
             }
             int idx = this.books.indexOf(book);
-            this.books.get(idx).purchaseHistory.add(client);
+            this.books.get(idx).nrPurchases += 1;
             return true;
         }
         return false;

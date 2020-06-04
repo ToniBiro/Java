@@ -15,7 +15,7 @@ public class BookstoreTest {
         // definire un input stream si output stream pentru citire a datelor din csv
         Input input = Input.getInstance();
         Output output = Output.getInstance();
-        output.setOutputFile("C:\\Users\\toni\\Documents\\GitHub\\Java\\Proiect-part2\\actionsOutput.txt");
+        output.setOutputFile("C:\\Users\\toni\\Documents\\GitHub\\Java\\Proiect-part3\\actionsOutput.txt");
 
         AllServices allServices = new AllServices();
         Bookstore carturesti = allServices.createNewBookstore(input, output);

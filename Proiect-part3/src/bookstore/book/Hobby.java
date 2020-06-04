@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Hobby extends Book{
 
-    public Hobby(String title, String author, String publisher, int year, List<Client> purchaseHistory, float price) {
+    public Hobby(String title, String author, String publisher, int year, int purchaseHistory, float price) {
         super(title, author, publisher, year, purchaseHistory, price);
         this.category = "hobby";
     }

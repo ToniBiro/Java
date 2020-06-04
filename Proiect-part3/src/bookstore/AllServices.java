@@ -45,7 +45,7 @@ public class AllServices {
                 Book book = new Mistery(book_aux[1].toString(),
                         book_aux[2].toString(), book_aux[3].toString(),
                         Integer.parseInt(book_aux[4]),
-                        clients,
+                        0,
                         Integer.parseInt(book_aux[5]));
                 bs.addBook(book);
             }
@@ -54,7 +54,7 @@ public class AllServices {
                 Book book = new Hobby(book_aux[1].toString(),
                         book_aux[2].toString(), book_aux[3].toString(),
                         Integer.parseInt(book_aux[4]),
-                        clients,
+                        0,
                         Integer.parseInt(book_aux[5]));
                 bs.addBook(book);
             }
@@ -63,7 +63,7 @@ public class AllServices {
                 Book book = new Motivational(book_aux[1].toString(),
                         book_aux[2].toString(), book_aux[3].toString(),
                         Integer.parseInt(book_aux[4]),
-                        clients,
+                        0,
                         Integer.parseInt(book_aux[5]));
                 bs.addBook(book);
             }
@@ -72,7 +72,7 @@ public class AllServices {
                 Book book = new Horror(book_aux[1].toString(),
                         book_aux[2].toString(), book_aux[3].toString(),
                         Integer.parseInt(book_aux[4]),
-                        clients,
+                        0,
                         Integer.parseInt(book_aux[5]));
                 bs.addBook(book);
             }

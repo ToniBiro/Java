@@ -11,18 +11,18 @@ public class Book implements Comparable<Book>{
     public String publisher;
     public int year;
     public int id;
-    public List<Client> purchaseHistory;
+    public int nrPurchases;
     protected String category;
 
     public float price;
 
-    public Book(String title, String author, String publisher, int year, List<Client> purchaseHistory, float price) {
+    public Book(String title, String author, String publisher, int year, int nrPurchases, float price) {
         this.title = title;
         this.author = author;
         this.publisher = publisher;
         this.year = year;
         this.id = hashCode();
-        this.purchaseHistory = purchaseHistory;
+        this.nrPurchases = nrPurchases;
         this.price = price;
     }
 
@@ -31,7 +31,7 @@ public class Book implements Comparable<Book>{
         this.author = author;
     }
 
-    public Book(String title, String author, String publisher, int year, List<Client> purchaseHistory) {
+    public Book(String title, String author, String publisher, int year, int nrPurchases) {
     }
 
     public String getTitle() {
@@ -55,7 +55,7 @@ public class Book implements Comparable<Book>{
     }
 
     public void viewPurchaseHistory(){
-        System.out.println("Purchase History Clients: " + this.purchaseHistory);
+        System.out.println("Number of purchases: " + this.nrPurchases);
     }
 
     @Override

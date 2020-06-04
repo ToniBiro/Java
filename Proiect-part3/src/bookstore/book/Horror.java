@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Horror extends Book{
 
-    public Horror(String title, String author, String publisher, int year, List<Client> purchaseHistory, float price) {
+    public Horror(String title, String author, String publisher, int year, int purchaseHistory, float price) {
         super(title, author, publisher, year, purchaseHistory, price);
         this.category = "horror";
     }

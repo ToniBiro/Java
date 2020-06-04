@@ -7,7 +7,7 @@ import java.util.List;
 public class Mistery extends Book{
 
 
-    public Mistery(String title, String author, String publisher, int year, List<Client> purchaseHistory, float price) {
+    public Mistery(String title, String author, String publisher, int year, int purchaseHistory, float price) {
         super(title, author, publisher, year, purchaseHistory, price);
         this.category = "mistery";
     }
