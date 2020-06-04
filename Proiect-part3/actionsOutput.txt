@@ -1,0 +1,10 @@
+creare_bookstore,Jun 04,2020 10:29:46
+adaugare_carti,Jun 04,2020 10:29:46
+adaugare_clienti,Jun 04,2020 10:29:46
+adaugare_angajati,Jun 04,2020 10:29:46
+afisare_angajati,Jun 04,2020 10:29:46
+afisare_angajati,Jun 04,2020 10:29:46
+inlaturare_angajati,Jun 04,2020 10:29:46
+afisare_inventar,Jun 04,2020 10:29:46
+afisare_istoric_vanzari,Jun 04,2020 10:29:46
+afisare_info_clienti,Jun 04,2020 10:29:46
