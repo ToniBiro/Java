@@ -11,10 +11,12 @@ import java.util.Optional;
 
 public class ClientDao implements Dao<Client> {
 
-    // to add a book to the bookstore inventory (database)
-    private static final String INSERT_SQL = "INSERT INTO user VALUES (?,?)";
-    // to find a book from the inventory (database)
+    // to add a client
+    private static final String INSERT_SQL = "INSERT INTO clients VALUES(?, ?, ?)";
+    // to find a client
     private static final String FIND_BY_ID_SQL = "SELECT * FROM clients WHERE name=?";
+    // to delete a certain client
+    private static final String DELETE_SQL = "DELETE FROM books WHERE client_name = ?;";
     private final Connection connection;
     private static volatile ClientDao instance;
 

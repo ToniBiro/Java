@@ -2,6 +2,8 @@ package dataBase;
 
 import bookstore.book.Book;
 import bookstore.dao.BookDao;
+import bookstore.dao.ClientDao;
+import bookstore.person.Client;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -33,6 +35,11 @@ public class TestDB {
 
         books = bookDao.getAll();
         System.out.println(books);
+
+        ClientDao clientDao = ClientDao.getInstance();
+
+        List<Client> clients = clientDao.getAll();
+        System.out.println(clients);
 
 
 //        System.out.println("from get: " + bookob);
