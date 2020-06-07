@@ -12,7 +12,7 @@ public class Client extends Person{
 
     public List<Book> purchaseHistory = new ArrayList<Book>();
     private Book bookInMind;
-    private float money;
+    public float money;
 
     public Client(int id, String name, float money) {
         super(id, name);

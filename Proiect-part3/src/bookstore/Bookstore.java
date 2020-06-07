@@ -62,6 +62,10 @@ public class Bookstore {
     public void showInventory(Output output){
         System.out.println("Inventory: " + this.books);
 
+        for(int i = 0; i <= this.books.size(); ++i){
+            System.out.println(this.books.get(i));
+        }
+
         output.write("afisare_inventar");
     }
 

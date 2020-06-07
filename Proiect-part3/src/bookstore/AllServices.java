@@ -30,7 +30,6 @@ public class AllServices {
         newManager.bs = bs;
         output.write("creare_bookstore");
         return bs;
-
     }
 
     public static void addBooks(Bookstore bs, Input input, Output output){
@@ -38,7 +37,7 @@ public class AllServices {
         List<String[]> books = input.read("C:\\Users\\toni\\Documents\\GitHub\\Java\\Proiect-part1\\csvFiles\\books.txt");
 
         for (int i = 0; i < books.size(); ++i){
-            List<Client> clients = new ArrayList<Client>();
+//            List<Client> clients = new ArrayList<Client>();
             String[] book_aux = books.get(i);
 
             if(book_aux[0].toString().toLowerCase().equals("mistery")) {

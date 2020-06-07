@@ -16,7 +16,7 @@ public class ClientDao implements Dao<Client> {
     // to find a client
     private static final String FIND_BY_ID_SQL = "SELECT * FROM clients WHERE name=?";
     // to delete a certain client
-    private static final String DELETE_SQL = "DELETE FROM books WHERE client_name = ?;";
+    private static final String DELETE_SQL = "DELETE FROM clients WHERE client_name = ?;";
     private final Connection connection;
     private static volatile ClientDao instance;
 
@@ -55,10 +55,10 @@ public class ClientDao implements Dao<Client> {
     }
 
     @Override
-    public Optional<Client> getById(String title) {
+    public Optional<Client> getById(String name, String aux) {
         try {
             PreparedStatement ps = connection.prepareStatement(FIND_BY_ID_SQL);
-            ps.setString(1, title);
+            ps.setString(1, name);
             ResultSet rs = ps.executeQuery();
             if (rs.next()) {
                 Client client = ClientDao.ClientRowMapper.mapRow(rs);
@@ -72,17 +72,36 @@ public class ClientDao implements Dao<Client> {
 
     @Override
     public void update(Client client) {
-
     }
 
     @Override
     public boolean create(Client client) {
-        return false;
+        boolean rs = false;
+        try {
+            PreparedStatement ps = connection.prepareStatement(INSERT_SQL);
+            ps.setInt(1, client.id);
+            ps.setString(2, client.name);
+            ps.setFloat(3, client.money);
+            rs = ps.execute();
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        return rs;
     }
 
     @Override
     public boolean delete(Client client) {
-        return false;
+        boolean rs = false;
+        try {
+            PreparedStatement ps = connection.prepareStatement(DELETE_SQL);
+            ps.setString(1, client.name);
+            rs = ps.execute();
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+        return rs;
     }
 
     static class ClientRowMapper {

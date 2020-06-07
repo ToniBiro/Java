@@ -12,7 +12,7 @@ public class BookDao implements Dao<Book> {
     // to add a book to the bookstore inventory (database)
     private static final String INSERT_SQL = "INSERT INTO books VALUES(?, ?, ?, ?, ?, ?, ?);";
     // to find a book from the inventory (database)
-    private static final String FIND_BY_TITLE_SQL = "SELECT * FROM books WHERE book_title=?";
+    private static final String FIND_BY_TITLE_SQL = "SELECT * FROM books WHERE book_title=? and book_author=?";
     // to delete a certain book from the inventory (database)
     private static final String DELETE_SQL = "DELETE FROM books WHERE book_title = ?;";
     private final Connection connection;
@@ -44,7 +44,6 @@ public class BookDao implements Dao<Book> {
             while (rs.next()) { // returns true if a next row exists and moves to that row
                 Book book = BookRowMapper.mapRow(rs);
                 books.add(book);
-                System.out.println(book);
             }
         } catch (SQLException throwables) {
             throwables.printStackTrace();
@@ -53,10 +52,11 @@ public class BookDao implements Dao<Book> {
     }
 
     @Override
-    public Optional<Book> getById(String title) {
+    public Optional<Book> getById(String title, String author) {
         try {
             PreparedStatement ps = connection.prepareStatement(FIND_BY_TITLE_SQL);
             ps.setString(1, title);
+            ps.setString(2, author);
             ResultSet rs = ps.executeQuery();
             if (rs.next()) {
                 Book book = BookRowMapper.mapRow(rs);

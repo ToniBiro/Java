@@ -2,7 +2,7 @@ package bookstore.person;
 
 public class Person{
 
-    private int id;
+    public int id;
     public String name;
     public String type;
 

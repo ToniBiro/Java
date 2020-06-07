@@ -7,7 +7,7 @@ public interface Dao<T> {
 
     List<T> getAll();
 
-    Optional<T> getById(String username);
+    Optional<T> getById(String one, String two);
 
     boolean create(T t);
 

@@ -30,3 +30,13 @@ afisare_inventar,Jun 04,2020 10:44:41
 afisare_istoric_vanzari,Jun 04,2020 10:44:41
 afisare_info_clienti,Jun 04,2020 10:44:41
 schimbare_status_firma,Jun 04,2020 10:44:43
+creare_bookstore,Jun 06,2020 10:35:57
+adaugare_carti,Jun 06,2020 10:35:57
+adaugare_clienti,Jun 06,2020 10:35:57
+adaugare_angajati,Jun 06,2020 10:35:57
+afisare_angajati,Jun 06,2020 10:35:57
+afisare_angajati,Jun 06,2020 10:35:57
+inlaturare_angajati,Jun 06,2020 10:35:57
+afisare_inventar,Jun 06,2020 10:35:57
+afisare_istoric_vanzari,Jun 06,2020 10:35:57
+afisare_info_clienti,Jun 06,2020 10:35:57
