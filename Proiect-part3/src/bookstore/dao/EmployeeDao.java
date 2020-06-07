@@ -13,7 +13,7 @@ public class EmployeeDao implements Dao<Employee> {
     // to add a employee
     private static final String INSERT_SQL = "INSERT INTO employees VALUES(?, ?);";
     // to find a employee
-    private static final String FIND_BY_ID_SQL = "SELECT * FROM employees WHERE name=?;";
+    private static final String FIND_BY_ID_SQL = "SELECT * FROM employees WHERE employee_name=?;";
     // to delete a certain employee
     private static final String DELETE_SQL = "DELETE FROM employees WHERE employee_name = ?;";
     private final Connection connection;

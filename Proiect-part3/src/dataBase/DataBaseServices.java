@@ -54,6 +54,9 @@ public class DataBaseServices {
     public boolean deleteClients(Client client){
 
         ClientDao clientDao = ClientDao.getInstance();
+        if(clientDao.getById(client.name, "aux").isPresent()){
+            return clientDao.delete(client);
+        }
         return clientDao.delete(client);
     }
 
@@ -69,6 +72,11 @@ public class DataBaseServices {
 
     public boolean deleteEmployee(Employee employee){
         EmployeeDao employeeDao = EmployeeDao.getInstance();
-        return employeeDao.delete(employee);
+        if(employeeDao.getById(employee.name, "aux").isPresent()){
+            return employeeDao.delete(employee);
+        }
+        else{
+            return false;
+        }
     }
 }

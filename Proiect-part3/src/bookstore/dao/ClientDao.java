@@ -14,7 +14,7 @@ public class ClientDao implements Dao<Client> {
     // to add a client
     private static final String INSERT_SQL = "INSERT INTO clients VALUES(?, ?, ?)";
     // to find a client
-    private static final String FIND_BY_ID_SQL = "SELECT * FROM clients WHERE name=?";
+    private static final String FIND_BY_ID_SQL = "SELECT * FROM clients WHERE client_name=?";
     // to delete a certain client
     private static final String DELETE_SQL = "DELETE FROM clients WHERE client_name = ?;";
     private final Connection connection;

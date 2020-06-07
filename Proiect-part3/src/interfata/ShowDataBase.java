@@ -34,8 +34,9 @@ public class ShowDataBase extends JPanel implements ActionListener {
         this.employeesButton = new JButton("See Employees");
         employeesButton.addActionListener(this);
         buttons.add(booksButton);
-        buttons.add(clientsButton);
         buttons.add(employeesButton);
+        buttons.add(clientsButton);
+
         buttons.setLayout(new BoxLayout(buttons, BoxLayout.PAGE_AXIS));
         showTab.add(buttons);
 
@@ -53,21 +54,27 @@ public class ShowDataBase extends JPanel implements ActionListener {
         JButton clicked = (JButton) e.getSource();
         if (clicked == booksButton) {
             List<Book> books = dataBaseServices.showBooks();
+            this.typingListener.textTyped("\n----Books----\n");
             for(int i = 0; i < books.size(); ++i) {
                 this.typingListener.textTyped(books.get(i).toString() + "\n");
             }
+            this.typingListener.textTyped("\n");
 
         } else if (clicked == employeesButton) {
             List<Employee> employees = dataBaseServices.showEmployees();
+            this.typingListener.textTyped("\n----Employees----\n");
             for(int i = 0; i < employees.size(); ++i) {
                 this.typingListener.textTyped(employees.get(i).toString() + "\n");
             }
+            this.typingListener.textTyped("\n");
 
         } else if (clicked == clientsButton) {
             List<Client> clients = dataBaseServices.showClients();
+            this.typingListener.textTyped("\n----Clients----\n");
             for(int i = 0; i < clients.size(); ++i) {
                 this.typingListener.textTyped(clients.get(i).toString() + "\n");
             }
+            this.typingListener.textTyped("\n");
         }
     }
 

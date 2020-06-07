@@ -17,6 +17,7 @@ public class AlterDataBase extends JPanel {
 
         this.tabBooks = new TabBooks();
         this.tabEmployee = new TabEmployees();
+        this.tabClients = new TabClients();
         mainTabbesPane.add("Books", new JScrollPane(tabBooks));
         mainTabbesPane.add("Employees", new JScrollPane(tabEmployee));
         mainTabbesPane.add("Clients", new JScrollPane(tabClients));
